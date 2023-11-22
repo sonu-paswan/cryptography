@@ -196,7 +196,7 @@ string encrypt(string plainBlock, vector<string> key)
 }
 
 int main()
-{
+{   cout<<"enter message and key\n";
     string inp, k;
     cin >> inp >> k;
     string oriKey = hex2bin(k);
